@@ -1,0 +1,4 @@
+posts:
+  - title: My first post
+    published_at: 2024-04-11
+    content: my-first-post.md

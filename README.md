@@ -2,6 +2,27 @@
 
 *A blog engine that sparks joy*
 
+## Install
+
+Run the following command to install dependencies:
+
+```sh
+pip install -r requirements.txt
+```
+
+If you want to hack on the project, you will need
+[pip-tools][pip-tools]:
+
+```sh
+pip install pip-tools
+```
+
+## Run
+
+```sh
+FLASK_DEBUG=1 flask run
+```
+
 # Goals
 
 Static Site Generators (SSGs) are great, especially for blogs where the content
@@ -29,3 +50,4 @@ FLASK_DEBUG=1 flask run
 ```
 
 [file-over-app]: https://stephango.com/file-over-app
+[pip-tools]: https://github.com/jazzband/pip-tools
